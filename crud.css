@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.error{
+    color: red;
+}
+body{
+    margin:0;
+    padding:0;
+    
+}
+#container{
+    background: rgb(104,96,232);
+background: linear-gradient(90deg, rgba(104,96,232,1) 15%, rgb(46, 174, 82) 55%, rgba(233,58,58,1) 84%);
+    min-height:100vh;
+   
+    
+    
+    padding:0px 60px ;
+}
+#box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#box h1{
+    margin-bottom: 0px;
+   
+}
+#box p{
+    
+    margin:20px 250px;
+
+}
+#box p span {
+    font-weight:bold;
+}
+
+#add-n-print{
+      display:flex;
+}
+#add-students{
+    display:flex;
+    align-items: center;
+    padding:0px 10px;
+    gap:5px;
+    margin-left:10px;
+    background:rgb(20, 175, 236);
+    border:none;
+    border-radius: 10px;
+}
+
+#add-students i{
+    font-size:20px;
+}
+#student-table{
+    width:100%;
+    margin-top:20px;
+    
+}
+#student-table th{
+    padding:15px 0;
+}
+#student-table tr:nth-child(even){
+    background: rgb(102,93,241);
+    background: linear-gradient(90deg, rgba(102,93,241,1) 1%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(228,49,49,0) 99%);
+}
+#student-table tr:nth-child(odd){
+    background: rgb(102,93,241);
+    background: linear-gradient(90deg, rgba(102,93,241,0.0845588235294118) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(228,49,49,0.15738795518207283) 100%);
+}
+#student-table td{
+   text-align:center;
+   
+}
+
+
+#student-form{
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right:10px;
+}
+#student-form input{
+    width:100%;
+    height:30px;
+    margin-bottom:15px;
+}
+#submit-form,#update-form{
+    padding:10px 20px;
+    background: darkgreen;
+    color:white;
+}
+
+.action-button{
+  display:flex;
+  gap:10px;
+  justify-content: center;
+}
+
+.edit-button{
+
+    border:none;
+    margin:0 4px;
+    height:30px;
+    color:white;
+    background:blue;
+    padding:4px;
+    font-size: 18px;
+    border-radius:10px;
+
+}
+
+.delete-button{
+    border:none;
+   
+    height:30px;
+    color:white;
+    background:red;
+    padding:0 4px;
+    font-size: 18px;
+    border-radius: 10px;
+}
